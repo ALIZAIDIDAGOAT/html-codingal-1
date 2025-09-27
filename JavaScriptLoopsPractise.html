@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Loops</title>
+
+</head>
+
+<body>
+
+    <h2>JavaScript but its looped</h2>
+
+    <p id="demo"></p>
+    <script>
+
+        var movies = ["Lagaan", "Dangal", "F9TheFastSaga", "Anaconda", "Up2019", "MonsterHouse"];
+        var text = "";
+        var b;
+        for (b = 0; b < movies.length; b++) {
+            text += movies[b] + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+
+    </script>
+
+</body>
+
+</html>
