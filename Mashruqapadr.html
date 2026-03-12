@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Raah-e-Ahad</title>
+
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rebeccapurple;
+            color: grey;
+            text-align: center;
+        }
+
+        .body {
+            margin: 0;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: darkcyan
+        }
+
+        .navtop {
+            overflow: hidden;
+            background-color: forestgreen;
+        }
+
+        .navtop a {
+            float: right;
+            color: teal;
+            text-align: center;
+            padding: 15px 21px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .navtop a:hover {
+            background-color: dodgerblue;
+            color: antiquewhite;
+        }
+
+        .navtop a:active {
+            background-color: darkseagreen;
+            color: chocolate;
+        }
+    </style>
+
+    <link rel="stylesheet" href="style.css" <span class="border true" style="font-size:45px;">
+
+    <center>Whoever visits this website are fools!</center>
+    </span><br>
+
+</head>
+
+<body>
+
+    <h4>This is the website of fools.You are a fool, I am a fool, everyone is a fool. Haha!</h4>
+    View this video:
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ov33PSlU9Wk?si=gzhXub4IKOW5U9ew"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <div class="footer"></div>
+    <p>All Credits to me!</p>
+
+    <div class="navtop">
+        <a class="active" href="Navigation Bar.html">HOME</a>
+        <a href="Google Bing.html">Mash</a>
+        <a href="AikNazarGhaizMeAbbasNeDekhaKhaali.html">Khat</a>
+        <a href="KhatKhaakPeKenchaKhaali.html">Google</a>
+        <a href="Mashruqapadr.html">Khaali</a>
+    </div>
+    Second Home Page?
+
+    <div><img class="mySlides" src="ImAPorcheWithNoBrakes.jpg" style="height:550px;width:450px;">
+        <img class="mySlides" src="NewFerrari.jpg" style="height:550px;width:450px;">
+        <img class="mySlides" src="OldFerrari.jpg" style="height:550px;width:450px;">
+        <img class="mySlides" src="BMW.jpg" style="height:550px;width:450px;">
+    </div>
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+
+            for (i = 0; i < x.length; i++) {
+
+                x[i].style.display = "none";
+
+            }
+
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 4001);
+
+        }
+
+    </script>
+
+    <section class="section section-dark">
+        <h3>Section 1</h3>
+        <h1>Web Development</h1>
+        <div class="p text">
+            <div class="pimg3">
+                <span class="border trans">Image Three Text</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-dark">
+        <h3>Section 2</h3>
+        <h1>Web Development</h1>
+        <div class="pimg2">
+            <div class="p text">
+                <span class="border trans">Image Four Text</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-dark">
+        <h3>Section 3</h3>
+        <h1>Web Development</h1>
+        <div class="pimg1">
+            <div class="p text">
+                <span class="border trans">Image Five Text</span>
+            </div>
+        </div>
+    </section>
+
+
+
+
+</body>
+
+</html>

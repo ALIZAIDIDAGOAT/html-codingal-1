@@ -8,15 +8,15 @@
 }
 
 .pimg1 {
-    background-image: url('');
+    background-image: url('NewFerrari.jpg');
     min-height: 100%;
 }
     .pimg2 {
-            background-image: url('');
+            background-image: url('OldFerrari.jpg');
             min-height: 400px;
 }
 .pimg3 {
-    background-image: url('');
+    background-image: url('Lamborghini\ Temerario.jpg');
     min-height: 400px;
 
     .section {
